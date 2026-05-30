@@ -1,0 +1,23 @@
+# dbt build artifacts
+**/target/
+**/dbt_packages/
+**/logs/
+logs/
+
+# dbt local state
+**/.user.yml
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Never commit credentials
+profiles.yml
+*.json.key
+*-key.json
